@@ -1,0 +1,15 @@
+{
+  "name": "cotton-energy",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cotton Energy multi-vendor marketplace",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "lint": "npm run lint --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
